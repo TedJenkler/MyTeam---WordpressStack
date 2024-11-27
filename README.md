@@ -12,6 +12,9 @@
    - [Font Optimization](#font-optimization)
    - [Lazy Loading and JavaScript Optimization](#lazy-loading-and-javascript-optimization)
    - [Image Optimization](#image-optimization)
+4. [SEO Optimization](#seo-optimization)
+   - [SEO Title](#seo-title)
+   - [SEO Description](#seo-description)
 
 ---
 
@@ -105,3 +108,14 @@ This optimization resulted in faster page load times and improved performance me
 To enhance performance, I prioritized **image optimization** throughout the project. All images were compressed by converting them from PNG to the modern **WebP** format, significantly reducing file sizes while maintaining high-quality visuals. This optimization saved substantial storage space and improved page loading times.
 
 For vector graphics, I retained **SVG** for icons due to their scalability and minimal file size. SVGs are ideal for responsive designs as they adapt to different resolutions without losing quality. By combining WebP for raster images and SVG for icons, the site achieves an optimal balance of performance and visual fidelity.
+
+---
+
+### SEO Optimization
+
+In this project, I have used the **`seo-title`** and **`seo-description`** tags to enhance search engine optimization (SEO). These tags are important for improving visibility and click-through rates from search engine results pages (SERPs).
+
+- **SEO Title**: This tag defines the title of the page as it will appear in search engine results.
+- **SEO Description**: This provides a brief summary of the page content and is displayed under the SEO title in search results.
+
+Both tags were carefully crafted to improve the page's SEO ranking and provide a better user experience when the page is listed in search engines.
