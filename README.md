@@ -8,6 +8,10 @@
    - [Alt Text for Images](#alt-text-for-images)
    - [Accessibility Testing with Axe](#accessibility-testing-with-axe)
    - [Accessibility Testing with WAVE](#accessibility-testing-with-wave)
+3. [Performance Optimization](#performance-optimization)
+   - [Font Optimization](#font-optimization)
+   - [Lazy Loading and JavaScript Optimization](#lazy-loading-and-javascript-optimization)
+   - [Image Optimization](#image-optimization)
 
 ---
 
@@ -76,3 +80,28 @@ These additions make the interface more inclusive and improve the overall user e
 - I have tested the site using the WAVE Web Accessibility Evaluation Tool to identify potential accessibility issues.  
 - While WAVE flagged the contrast on the "About" buttons as insufficient, I decided to retain the current color scheme for design consistency and brand identity.  
 - To balance aesthetics and accessibility, I ensured that all other interactive elements meet contrast requirements and implemented additional accessibility features to enhance the overall user experience.  
+
+---
+
+## Performance Optimization
+
+### Font Optimization
+
+To enhance site performance, I focused on **Font Optimization** by preloading custom fonts and ensuring they load asynchronously. This approach reduces render-blocking issues and improves page speed significantly.
+
+These optimizations resulted in **significant speed improvements**, as verified by tools like Google Lighthouse and PageSpeed Insights. Render-blocking delays caused by custom font loading were eliminated while maintaining the visual integrity of the design.
+
+### Lazy Loading and JavaScript Optimization
+
+To enhance site performance, I optimized the loading of JavaScript by using the `defer` attribute, which improves load times and overall user experience.
+
+1. **JavaScript Deferred Loading**:  
+   - I applied the `defer` attribute to non-critical JavaScript files, ensuring they load after the page content is parsed. This reduces render-blocking and allows the page to become interactive faster.
+
+This optimization resulted in faster page load times and improved performance metrics, contributing to a better user experience.
+
+### Image Optimization
+
+To enhance performance, I prioritized **image optimization** throughout the project. All images were compressed by converting them from PNG to the modern **WebP** format, significantly reducing file sizes while maintaining high-quality visuals. This optimization saved substantial storage space and improved page loading times.
+
+For vector graphics, I retained **SVG** for icons due to their scalability and minimal file size. SVGs are ideal for responsive designs as they adapt to different resolutions without losing quality. By combining WebP for raster images and SVG for icons, the site achieves an optimal balance of performance and visual fidelity.
