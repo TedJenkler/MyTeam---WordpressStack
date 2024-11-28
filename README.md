@@ -1,22 +1,43 @@
 # MyTeam - WordpressStack
 
 ## Table of Contents
-1. [Breakpoints](#breakpoints)
-2. [Accessibility (a11y)](#accessibility-a11y)
+1. [Cross-Browser Testing](#cross-browser-testing)
+2. [Fluid Layouts](#fluid-layouts)
+3. [Mobile-First](#mobile-first)
+4. [Breakpoints](#breakpoints)
+5. [Accessibility (a11y)](#accessibility-a11y)
    - [Keyboard Navigation](#keyboard-navigation)
    - [ARIA Roles](#aria-roles)
    - [Alt Text for Images](#alt-text-for-images)
    - [Accessibility Testing with Axe](#accessibility-testing-with-axe)
    - [Accessibility Testing with WAVE](#accessibility-testing-with-wave)
-3. [Performance Optimization](#performance-optimization)
+6. [Performance Optimization](#performance-optimization)
    - [Font Optimization](#font-optimization)
    - [Lazy Loading and JavaScript Optimization](#lazy-loading-and-javascript-optimization)
    - [Image Optimization](#image-optimization)
-4. [SEO Optimization](#seo-optimization)
+7. [SEO Optimization](#seo-optimization)
    - [SEO Title](#seo-title)
    - [SEO Description](#seo-description)
 
 ---
+
+## Cross-Browser Testing
+
+I ensured consistent design performance across **Mozilla Firefox**, **Google Chrome**, and **Microsoft Edge**, focusing on different viewport widths for each browser.
+
+## Fluid Layouts
+
+In this project, I have ensured that the layout is fully responsive and adapts smoothly to different screen sizes. For a pixel-perfect design, I focused on three key breakpoints: mobile (375px), tablet (768px), and desktop (1440px). 
+
+To achieve fluidity across all screen sizes, I used **percentage-based widths**, **Flexbox**, and **CSS Grid** to create flexible layouts. These techniques allow elements to scale and adjust based on the available screen space, ensuring the design remains consistent and functional.
+
+Moreover, I utilized **root calculations** (`rem` and `em` units) to maintain consistent spacing, font sizes, and other elements across all devices, ensuring a seamless, fluid experience regardless of screen size.
+
+## Mobile-First
+
+In this project, I followed a **Mobile-First** approach, designing for the smallest screens first and progressively enhancing the layout for larger devices. This strategy ensures that the core functionality and design work seamlessly on mobile devices, providing an optimal user experience even on constrained screen sizes.
+
+Once the mobile layout was perfected, I used **media queries** to progressively enhance the design for larger screen sizes such as tablets (768px) and desktops (1440px). At each breakpoint, the layout adjusts smoothly, adding or expanding elements to take advantage of the larger screen real estate. This ensures that the design remains consistent, functional, and visually appealing across all device sizes.
 
 ## Breakpoints
 
