@@ -21,6 +21,19 @@
 
 ---
 
+## Screenshots
+
+### Desktop View
+![MyTeam Desktop](myteam-desktop.png)
+
+### Tablet View
+![MyTeam Tablet](myteam-tablet.png)
+
+### Mobile View
+![MyTeam Mobile](myteam-mobile.png)
+
+---
+
 ## Cross-Browser Testing
 
 I ensured consistent design performance across **Mozilla Firefox**, **Google Chrome**, and **Microsoft Edge**, focusing on different viewport widths for each browser.
